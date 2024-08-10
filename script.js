@@ -118,6 +118,9 @@ function addFromKey(event){
     else if(key == '=' || key == 'Enter'){
         evaluate();
     }
+    else if(key == 'C' || key == 'c'){
+        addDustbin();
+    }
 }
 
 
