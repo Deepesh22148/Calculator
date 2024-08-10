@@ -1,0 +1,89 @@
+* {
+    margin : 0;
+    padding : 0;
+}
+
+.main-dialog{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-dialog{
+    background-color: rgba(51, 51, 51, 0.603);
+}
+
+.calculator{
+    height: 70%;
+    width : 30%;
+    background-color: rgb(38,38,38);
+    color : white;
+}
+
+.text-field_area{
+    height: 20%;
+    width: 100%;
+    background-color: rgb(51, 51, 51);
+    font-size: 200%;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+#text-field{
+    direction: ltr;
+    padding-bottom: 3%;
+    padding-right : 2%;
+    outline: none;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow-x: auto; /* Allow horizontal scrolling */
+    overflow-y: hidden; /* Hide vertical overflow (optional) */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+    font-size: 1.5em; /* Adjust font size as needed */
+    text-align: right; /* Align text to the right */
+    background-color: rgb(51, 51, 51); /* Match the background color */
+    color: white; /* Ensure text is visible */
+    display: flex;
+    align-items: center; 
+}
+
+
+
+.optionList{
+    height: 12%;
+    width: 100%;
+    margin: 1% 0%;
+    padding: 1% 0%; 
+    display:flex;
+    margin-bottom: 2%;
+    font-size: 120%;
+}
+
+.circle{
+    background-color: rgb(70,70,70);
+    height : 100%;
+    width : 20%;
+    margin: 0% 3%;
+    padding : 1%;
+    cursor:pointer;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.operator{
+    background-color:rgb(251,161,24);
+}
+
+.circle:hover{
+    background-color: rgba(70, 70, 70, 0.5);
+}
+
+.operator:hover{
+    background-color : rgb(251,161,24,0.5);
+}
